@@ -2,8 +2,9 @@
 pragma solidity ^0.8.0;
 import "./utils/Ownable.sol";
 import "./CurrencyContract.sol";
-import "./CivilandContract.sol";
+// import "./CivilandContract.sol";
 import "./utils/Context.sol";
+import "./token/erc721/IERC721.sol";
 
 contract MarketPlace is Context, Ownable
 {

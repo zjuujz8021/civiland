@@ -2,12 +2,12 @@
 pragma solidity ^0.8.0;
 import "./utils/Ownable.sol";
 import "./token/erc20/ERC20.sol";
-import "./CivilandContract.sol";
+// import "./CivilandContract.sol";
 
 contract Currency is ERC20, Ownable
 {
 
-    Civiland public civiland;
+    // Civiland public civiland;
     // address feeCollector;
 
     constructor(string memory _name, string memory _symbol) ERC20(_name, _symbol) {}
@@ -23,10 +23,10 @@ contract Currency is ERC20, Ownable
     //     return true;
     // }
 
-    function setCiviland(address addr) public onlyOwner()
-    {
-        civiland = Civiland(addr);
-    }
+    // function setCiviland(address addr) public onlyOwner()
+    // {
+    //     civiland = Civiland(addr);
+    // }
 
     // function setFeeCollector(address addr) public onlyOwner()
     // {
