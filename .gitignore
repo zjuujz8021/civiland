@@ -6,3 +6,4 @@ reports/
 truffle-config.js
 test/
 migrations/
+flatten/
